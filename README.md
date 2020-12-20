@@ -27,11 +27,17 @@ Essayons d'exploiter cette vulnérabilité en utilisant métasploit et voyons si
 
 Je suppose que vous avez metasploit tout prêt pour l'action, sautons directement dans le vif du sujet. 
 
+Voici ma mise en place : J'ai un serveur raspbian et Kali Linux (ma machine hôte) est l'attaquant.
+
 # Étape 1 : Téléchargez l'exploit dans votre ordinateur.
 
 Pour cela, ouvrez un terminal en tant que root et téléchargez l'exploit à partir d'[ICI](https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb)
 
-Ou avec un petit
+Copiez-le dans le dossier des exploits.
 
-{% filename %}command-line{% endfilename %}
-wget https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb
+cp proftpd_modcopy_exec.rb /usr/share/metasploit-framework/modules/exploits/unix/ftp/
+
+# Étape 2 : Ouvrez msfconsole.
+
+Pour cela, ouvrez un Terminal ( comme root ) et tapez "msfconsole".
+
