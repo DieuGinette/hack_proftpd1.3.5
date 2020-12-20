@@ -41,3 +41,4 @@ cp proftpd_modcopy_exec.rb /usr/share/metasploit-framework/modules/exploits/unix
 
 Pour cela, ouvrez un Terminal ( comme root ) et tapez "msfconsole".
 
+![screen msfconsole](https://zupimages.net/up/20/51/ini9.png)
