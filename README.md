@@ -24,3 +24,9 @@ Oui, c'est vrai ! Quelqu'un a écrit un exploit pour cette vulnérabilité et ç
 Essayons d'exploiter cette vulnérabilité en utilisant métasploit et voyons si nous y parvenons.
 
 # VEUILLEZ NOTER QUE CECI EST UNIQUEMENT À DES FINS ÉDUCATIVES, ESSAYEZ-LE SUR DES APPAREILS QUE VOUS AVEZ AUTORISÉS ET JE NE SERAI PAS RESPONSABLE DE VOS ACTIONS.
+
+Je suppose que vous avez metasploit tout prêt pour l'action, sautons directement dans le vif du sujet. 
+
+# Étape 1 : Téléchargez l'exploit dans votre ordinateur.
+
+Pour cela, ouvrez un terminal en tant que root et téléchargez l'exploit à partir d'ICI
