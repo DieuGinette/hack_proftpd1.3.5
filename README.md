@@ -30,3 +30,9 @@ Je suppose que vous avez metasploit tout prêt pour l'action, sautons directemen
 # Étape 1 : Téléchargez l'exploit dans votre ordinateur.
 
 Pour cela, ouvrez un terminal en tant que root et téléchargez l'exploit à partir d'[ICI](https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb)
+
+Ou avec un petit
+
+{% filename %}command-line{% endfilename %}
+
+wget https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb
