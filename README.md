@@ -34,5 +34,4 @@ Pour cela, ouvrez un terminal en tant que root et téléchargez l'exploit à par
 Ou avec un petit
 
 {% filename %}command-line{% endfilename %}
-
 wget https://raw.githubusercontent.com/rapid7/metasploit-framework/master/modules/exploits/unix/ftp/proftpd_modcopy_exec.rb
